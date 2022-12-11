@@ -29,9 +29,7 @@ export class Server {
                 proxy: proxy,
                 serveStatic: ["."]
             };
-        }
-
-        if (ui.port && ui.weinrePort) {
+        } if (ui.port && ui.weinrePort) {
             options.ui = {
                 port: ui.port,
                 weinre: {
@@ -39,8 +37,6 @@ export class Server {
                 }
             };
         }
-
-
         bs.init(options, (err) => {
             if (err) {
                 console.log(err);
