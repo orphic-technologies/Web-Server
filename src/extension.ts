@@ -20,6 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
         if (e.document === vscode.window.activeTextEditor.document) {
             const previewUri = Utility.getUriOfActiveEditor();
             provider.update(previewUri);
+            
         }
     });
 
