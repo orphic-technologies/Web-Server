@@ -1,6 +1,6 @@
-# Live Web Preview Extension for Visual Studio Code
+# Web Preview Extension for Visual Studio Code
 
-A simple extension that allows you to see a live preview on side panel as well as in browser of your code as you type it, directly within Visual Studio Code.
+A simple extension that allows you to see a live preview on side panel as well as in browser of your code as you type it, directly within Visual Studio Code and allows users to see a live preview of their code as they type it, directly within the code editor. This allows for faster and more efficient coding, as users can see the changes to their code in real time without having to manually refresh the preview. The extension can be easily installed and configured, and is a useful tool for any developer using Visual Studio Code.
 
 ## Installation
 
